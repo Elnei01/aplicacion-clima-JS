@@ -1,0 +1,33 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(125, 125, 177);
+    color: white;
+}
+.conteiner{
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(95, 95, 136);
+    box-shadow: 0 2px 4px black;
+}
+h1,h2,p{
+    color: white;
+
+}
+input[type="text"]{
+    padding: 10px;
+    font-size: 16px;
+    width: 70%;
+}
+button{
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: rgb(57, 62, 129);
+    border: none;
+    cursor: pointer;
+}
+#responseData{
+    margin-top: 20px;
+    font-size: 18px;
+}
